@@ -1,0 +1,27 @@
+.aboutSection {
+  background-image: url(../images/background.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  color: white;
+}
+
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pShadow {
+  box-shadow: 4px 4px 3px #e3aa11;
+}
+
+.pBorder {
+  border: 1px solid #e3aa11;
+}

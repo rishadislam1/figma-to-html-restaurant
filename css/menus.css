@@ -1,0 +1,112 @@
+:root {
+    --primaryColor: #e3aa11;
+}
+
+.menu-card-Wrper {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 70px;
+}
+
+
+
+
+
+.menu-card-Wrper>div {
+    width: 100%;
+    height: 380px;
+    transition: .8s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-card-Wrper>div>h2 {
+    font-size: 60px;
+}
+
+.menu-card-Wrper>div:hover {
+    transform: rotate(-3deg) scale(.9);
+}
+
+.menu-card-Wrper>div:first-child {
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../images/menu-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-card-Wrper>div:nth-child(2) {
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../images/drinks.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-card-Wrper>div:last-child {
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../images/desertitem.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+@media (max-width:1024px) {
+    .menu-card-Wrper {
+        flex-direction: column;
+    }
+}
+
+/* food card section css code here */
+.food-card-section {
+    padding: 80px 0;
+}
+
+.food-card-Wrper {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.food-card-Wrper>div {
+    width: 100%;
+    height: 500px;
+    transition: .8s;
+}
+
+.food-card-Wrper>div:hover {
+    transform: rotate(-3deg) scale(.9);
+}
+
+.food-card-Wrper>div:first-child {
+    margin-top: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../images/menu-01.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.food-card-Wrper>div:last-child {
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../images/menu-02.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+.introducingroofloofvedioSection {
+    position: relative;
+    height: 600px;
+}
+
+.houseofsmoke {
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+
